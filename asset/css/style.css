@@ -1,0 +1,759 @@
+.hi{
+    text-decoration: underline;
+}
+@font-face {
+    font-family: 'Nexa_Free_Light';
+    src: url('../My_Fontspring_Fonts/Webfonts/nexa_lightfree_macroman/Nexa_Free_Light-webfont.woff2') format('woff2'),
+    url('../My_Fontspring_Fonts/Webfonts/nexa_lightfree_macroman/Nexa_Free_Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Nexa_Free_Bold';
+    src: url('../My_Fontspring_Fonts/Webfonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff2') format('woff2'),
+    url('../My_Fontspring_Fonts/Webfonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../My_Fontspring_Fonts/Webfonts/bebas/bebas___-webfont.woff') format('woff2'),
+    url('../My_Fontspring_Fonts/Webfonts/bebas/bebas___-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#mySlider .carousel-inner{
+	    padding-bottom: 50px;
+}
+.checks{
+    margin-top: 10px;
+    height: 40px;
+    width: 50px;
+    display: block;
+}
+
+.text-lemon{
+    color: #86cca8;
+}
+
+.btn-up{
+    text-align: right;
+}
+.slider-bottom-icon{
+	    margin-top: 50px;
+}
+.bg-about{
+    min-height: 700px;
+    width: 100%;
+    background-color: #fafdfb;
+    /*background-color: red;*/
+}
+
+.section-title{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-family: Nexa_Free_Light;
+    font-size: 30px;
+    color: #86cca8;
+}
+
+.section-title3{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    font-family: Nexa_Free_Light;
+    font-size: 30px;
+    color: #86cca8;
+}
+.sub-section{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.slider-box{
+    min-height: 225px;
+    /*background-color: #0c5460;*/
+}
+
+.section-sub{
+    font-family: Nexa_Free_Bold;
+    color: black !important;
+}
+
+.about-image{
+    /*height: 350px;*/
+    /*width: 100%;*/
+    /*width: 100%;*/
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 330px; /* You can set the dimensions to whatever you want */
+    height: 285px;
+    object-fit: cover;
+}
+
+.about-para{
+    font-family: Nexa_Free_Light;
+    size: 16px;
+    color: black;
+}
+
+.overflow-para{
+    padding: 0 2.5%;
+    width: 100%;
+    /*background-color: #0c5460;*/
+    padding: 1.5%;
+    /*overflow-y: auto;*/
+}
+
+.about-img-pos{
+    text-align: right;
+}
+
+/**********************************************************/
+
+.bg-projects{
+    min-height: 720px;
+    width: 100%;
+    background-color: white;
+    /*border: 1px solid black;*/
+}
+
+.bayzid{
+    height: 450px;
+    width: 600px;
+}
+
+
+
+.project-title{
+    font-family: Nexa_Free_Bold;
+    font-size: 16px;
+    color: black;
+}
+
+.project-para{
+    font-family: Nexa_Free_Light;
+    font-size: 14px;
+    color: #838383;
+}
+
+.gap{
+    margin: 15px 0 0 0;
+    display: block;
+}
+
+.margin-projects{
+    margin-bottom: 100px;
+}
+
+
+/*************************************************/
+.bg-teams{
+    min-height: 470px;
+    width: 100%;
+    background-color: #fafdfb;
+}
+
+.margin-teams{
+    padding-bottom: 50px;
+}
+
+.designation-css{
+    color: #cacaca;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Nexa_Free_Light;
+}
+
+.team-man{
+    font-size: 14px;
+    font-family: Nexa_Free_Bold;
+    color: black;
+    margin-top: 15px;
+}
+
+.image-control-owl:hover{
+    height: 115px;
+    width: 115px;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    border-radius: 50%;
+}
+
+
+.image-control-owl{
+    height: 115px;
+    width: 115px;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    border-radius: 50%;
+}
+
+.team-gap{
+    margin-bottom: 120px;
+}
+
+.us-box{
+    width: 125px;
+    min-height: 150px;
+    float: left;
+}
+/**************************************************/
+.bg-events{
+    min-height: 600px;
+    width: 100%;
+    background-color: white;
+}
+
+.event-image-box{
+    height: 162px;
+    width: 100%;
+    background-color: black;
+    border-radius: 85px;
+    margin-bottom: 22px;
+}
+
+.event_pic_responsive{
+    height: 162px;
+    width: 100%;
+    border-radius: 85px;
+}
+
+.inner_content{
+    padding: 1.7%;
+    background-color: #90cfaf;
+    position: relative;
+    top:-28px;
+    font-family: Nexa_Free_Light;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.event-details{
+    text-align: center;
+    margin-bottom: 122px;
+}
+
+.event-details h4{
+    font-size: 20px;
+    margin-bottom: 26px;
+    padding: 0;
+    font-family: Nexa_Free_Bold;
+}
+
+.event-details a{
+    /*color: #90cfaf;*/
+    color: #000000;
+    font-size: 11px;
+    background-color: #FAFDFB;
+    font-family: Nexa_Free_Light;
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+
+@media screen and (min-width: 0px) and (max-width: 770px) {
+    .event-image-box{
+        height: 162px;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: black;
+        border-radius: 85px;
+        margin-bottom: 22px;
+    }
+}
+
+/*********************************************************/
+.bg-partners {
+    min-height: 430px;
+    width: 100%;
+    background-color: #fafdfb;
+}
+
+
+.our-partner-box{
+    min-height: 470px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+
+.partners-responsive-img{
+    height: 75px;
+    width: 75px;
+    margin: 25px 43px;
+}
+
+
+
+
+
+
+/******************************************************/
+/********************************************************/
+.big-foot{
+    min-height: 1020px;
+    width: 100%;
+    background-size: 100%;
+    background-image: url("../images/footer-img.jpg");
+    padding-bottom:42px;
+    background-attachment: fixed;
+
+}
+
+.sticky-note{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    /*margin-top: 12px;*/
+}
+
+.height-of{
+    height: 165px;
+}
+
+.btn-me{
+    background-color: #90cfaf;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 25px;
+}
+
+.gray-line{
+    background-color: #2E2E2E;
+    margin: 35px 0px;
+}
+
+
+.foot-font{
+    font-size: 12px;
+    font-family: Nexa_Free_Bold;
+    /*margin-bottom: 50px;*/
+}
+
+.last-gap{
+    margin-bottom: 35px;
+}
+
+.foot-font p{
+    margin: 0;
+    font-size: 12px;
+    font-family: Nexa_Free_Bold;
+}
+
+.foot-font h6{
+    font-size: 12px;
+    font-family: Nexa_Free_Bold;
+}
+
+.last-foot{
+    height: 20px;
+    width: 100%;
+    font-family: Nexa_Free_Light;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.check-up{
+    padding: 10px 12px;
+    background-color: #86cca8;
+    float: right;
+    position: relative;
+    top: -35px;
+}
+
+.contact-us{
+    font-family: Nexa_Free_Bold;
+}
+
+/*********************************************ss*/
+
+.image-responsive{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-manual{
+    margin-top: 92px;
+    width: 165px;
+    height: 50px;
+    font-size: 11pt;
+}
+
+.outer-zone{
+    /*margin-top: 88px;*/
+    margin: 70px 5.5% 0 5.5%;
+    padding-top: 10px;
+    border-left: 3px solid #90cfaf;
+    border-right: 3px solid #90cfaf;
+}
+
+.scroll-button{
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 120px;
+}
+
+
+
+
+.magic-slider{
+    min-height: 200px;
+    width: 100%;
+    padding: 7.5% 4.5%;
+    /*background-color: #0c5460;*/
+}
+
+.icon-pos{
+    position: absolute;
+    top: -150px;
+}
+
+.check-menu{
+    color: black;
+    font-size: 13px;
+    /*border-bottom: 2px solid #90cfaf;*/
+}
+
+.active, .check-menu:hover{
+    color: #86cca8;
+}
+
+.to-top{
+    position: absolute;
+    bottom: 5px;
+    right: 30px;
+    background-color: #86cca8;
+    padding: 6px 8px;
+    display: block !important;
+    border-radius: 3px;
+
+}
+
+
+.btn-learn{
+    width: 160px;
+    height: 45px;
+    background-color: #86cca8;
+    color: white;
+    font-family: Nexa_Free_Light;
+    font-size: 16px;
+    border-radius: 35px;
+    padding-top: 10px;
+    z-index: 98;
+    /*margin-top: 40px;*/
+}
+
+.above li a:active,
+.above li a:focus{
+    color:#90cfaf;
+}
+
+
+/***************PROJECTS**********************/
+
+.project-box{
+    height: 230px;
+    max-width: 275px;
+    padding-top: 10%;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 35px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.align-project{
+    text-align: center;
+}
+
+
+.project-image{
+    height: 50px;
+    width: 50px;
+    margin: 30px 0px;
+}
+
+.project-image2{
+    height: 36px;
+    width: 75px;
+    margin: 30px 8px;
+}
+
+.project-box:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 40px 0px rgba(134, 204, 138, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/**************TEAMS****************/
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 11.11%;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column:hover .designation-css{
+    color: #86cca8;
+}
+
+
+.bg-lemon{
+    background-color: #86cca8;
+}
+
+
+.side-menu{
+    font-family: Nexa_Free_Light;
+    font-size:15px;
+    /*font-weight:bold;*/
+}
+#nav{
+    width:100%;
+    height:auto;
+}
+#nav ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+#nav ul li{
+    color: black;
+    border: 1px solid #86cca8;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+#nav ul li:active,
+#nav ul li a:focus,
+#nav ul li:visited{
+    background-color: #86cca8;
+    color: white;
+}
+
+#nav ul li a{
+    min-height: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    /*padding-left: 10px;*/
+}
+#nav ul li:hover{
+    background-color: #86cca8;
+    color: white;
+}
+
+#nav ul li:hover a{
+    color: white;
+}
+
+.pg { display:none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project-details{
+    margin-top: 120px;
+    min-height: 1145px;
+    width: 100%;
+}
+
+
+.section-title2{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: Nexa_Free_Bold;
+    font-size: 24px;
+    color: #86cca8;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+
+
+
+.details-img{
+    height: 200px;
+    width: 300px;
+    /*border-radius: 25px;*/
+    object-fit: fill;
+    margin-bottom: 25px;
+}
+
+.project_name{
+    font-size: 18px;
+    font-family: Nexa_Free_Bold;
+}
+
+/*.carousel-item{*/
+    /*height: 200px;*/
+/*}*/
+
+.text-details{
+    font-family: Nexa_Free_Light;
+    font-size: 15px;
+    color: black;
+    padding: 5px 0 20px 0px;
+}
+
+.text-details2{
+    font-family: Nexa_Free_Light;
+    font-size: 15px;
+    color: black;
+    padding: 5px 0 10px 0px;
+}
+
+
+#cssmenu{
+    display: none;
+}
+
+.cssmenu #cssmenu{
+    display: none;
+}
+
+.btn-learn:hover{
+    color: #86cca8;
+    background-color: white;
+    border: 1px solid #86cca8;
+}
+
+.btn-learn:active{
+    color: #86cca8;
+    background-color: white;
+    border: 1px solid #86cca8;
+}
+
+
+.details-img{
+    transition: 2s;
+}
+
+.details-img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    box-shadow: 0px 0px 80px 0px rgba(134, 204, 138, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+li{
+    font-family: Nexa_Free_Light;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+/*.padd{*/
+    /*padding: 10px;*/
+    /*background-color: black;*/
+    /*color: white !important;*/
+    /*font-weight: bold;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

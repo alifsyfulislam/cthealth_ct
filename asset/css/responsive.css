@@ -1,0 +1,667 @@
+@media screen and (min-width: 0px) and (max-width: 770px){
+
+
+    .menu-box{
+        min-height: 804px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        /*background-image: url("../images/baaaar.png");*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: 100%;*/
+    }
+}
+
+/*@media screen and (min-width: 771px) and (max-width: 1370px) {*/
+
+    /*.slider-header {*/
+        /*color: #86cca8;*/
+        /*font-family: Bebas;*/
+        /*font-size: 28px;*/
+        /*z-index: 2333;*/
+        /*padding-left: 18.5%;*/
+        /*padding-right: 18.5%;*/
+    /*}*/
+
+    /*.slider-paragraph{*/
+        /*color: #585859;*/
+        /*font-size: 16px;*/
+        /*font-family: Nexa_Free_Light;*/
+        /*z-index: 2333;*/
+        /*margin-top: 20px;*/
+        /*margin-bottom: 95px;*/
+        /*padding-left: 15.5%;*/
+        /*padding-right: 15.5%;*/
+    /*}*/
+/*}*/
+
+
+/********************************************************/
+@media screen and (min-width: 1500px) and (max-width: 2200px){
+    .menu-box{
+        min-height: 804px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        background-image: url("../images/Tech bar Large Desktop.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .cssmenu #cssmenu{
+        display: none;
+    }
+    #cssmenu{display: none;}
+
+    .carousel-item{
+        height: 350px;
+    }
+
+    .above li a:active,
+    .above li a:focus{
+        color:#90cfaf;
+        border-bottom: 2px solid #90cfaf;
+    }
+
+    .menu-css .nav-link{
+        /*padding-top: 15px;*/
+        /*padding-bottom: 15px;*/
+        /*font-size: 18px;*/
+        /*text-align: center;*/
+        /*color: black;*/
+        font-family: Nexa_Free_Bold;
+    }
+
+    .slider-header{
+        color: #86cca8;
+        font-family: Bebas;
+        font-size: 40px;
+        z-index: 2333;
+        margin-top: 7.5%;
+        /*padding-left: 7.5%;*/
+        /*padding-right: 7.5%;*/
+    }
+
+    .slider-paragraph{
+        color: #585859;
+        font-size: 18px !important;
+        font-family: Nexa_Free_Light;
+        z-index: 2333;
+        /*margin-top: 20px;*/
+        /*margin-bottom: 15px;*/
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+    }
+
+    #cssmenu{display: none;}
+
+    .details-img{
+        height: 225px;
+        width: 350px;
+        object-fit: fill;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1499px){
+    .menu-box{
+        min-height: 804px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        background-image: url("../images/Tech bar Large Laptop.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .details-img{
+        height: 225px;
+        width: 310px;
+        /*border-radius: 25px;*/
+        object-fit: fill;
+        margin-bottom: 50px;
+    }
+
+    .cssmenu #cssmenu{
+        display: none;
+    }
+
+    .above li a:active,
+    .above li a:focus{
+        color:#90cfaf;
+        border-bottom: 2px solid #90cfaf;
+    }
+
+    .menu-css .nav-link{
+        font-family: Nexa_Free_Bold;
+    }
+
+    .column {
+        float: left;
+        width: 14.27%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .slider-header{
+        color: #86cca8;
+        font-family: Bebas;
+        font-size: 40px;
+        z-index: 2333;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    .slider-paragraph{
+        color: #585859;
+        font-size: 18px !important;
+        font-family: Nexa_Free_Light;
+        z-index: 2333;
+        margin-top: 20px;
+        margin-bottom: 95px;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    .carousel-item{
+        height: 350px;
+    }
+
+    .slider-box{
+        min-height: 215px;
+    }
+
+    #cssmenu{display: none;}
+}
+
+@media screen and (min-width: 749px) and (max-width: 1149px){
+    .details-img{
+        height: 200px;
+        width: 230px;
+        /*border-radius: 25px;*/
+        object-fit: fill;
+    }
+    .cssmenu #cssmenu{
+        display: none;
+    }
+    .menu-box{
+        min-height: 804px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        background-image: url("../images/950.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .carousel-item{
+        height: 350px;
+    }
+
+    .slider-box{
+        min-height: 215px;
+    }
+
+
+    .menu-css .nav-link{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 13px;
+        text-align: right;
+        color: black;
+        font-family: Nexa_Free_Bold;
+    }
+
+    .menu-css .nav-link:hover{
+        border-bottom: 2px solid #86cca8;
+    }
+
+    .above li a:active,
+    .above li a:focus{
+        color:#90cfaf;
+        border-bottom: 2px solid #90cfaf;
+    }
+
+    .check-menu{
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .menu-css .nav-link{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: Nexa_Free_Bold;
+    }
+
+
+    .column {
+        float: left;
+        width: 20%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .image-control-owl:hover{
+        height: 110px;
+        width: 110px;
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        border-radius: 50%;
+    }
+
+
+    .image-control-owl{
+        height: 110px;
+        width: 110px;
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        border-radius: 50%;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .slider-header{
+        color: #86cca8;
+        font-family: Bebas;
+        font-size: 36px;
+        z-index: 2333;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    .slider-paragraph{
+        color: #585859;
+        font-size: 16px !important;
+        font-family: Nexa_Free_Light;
+        z-index: 2333;
+        margin-top: 20px;
+        /*margin-bottom: 95px;*/
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    #cssmenu{display: none !important;}
+
+
+}
+/***********************************TAB***************************/
+@media screen and (min-width: 571px) and (max-width: 748px){
+
+    .details-img{
+        height: 200px;
+        width: 220px;
+        /*border-radius: 25px;*/
+        object-fit: fill;
+    }
+
+    .cssmenu #cssmenu{
+        display: none;
+    }
+
+    .carousel-item{
+        height: 300px;
+    }
+
+    .slider-box{
+        min-height: 215px;
+    }
+
+    .slider-header{
+        color: #86cca8;
+        font-family: Bebas;
+        font-size: 32px;
+        z-index: 2333;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    .slider-paragraph{
+        color: #585859;
+        font-size: 14px !important;
+        font-family: Nexa_Free_Light;
+        z-index: 2333;
+        margin-top: 20px;
+        /*margin-bottom: 95px;*/
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    .about-img-pos{
+        text-align: center;
+    }
+
+
+    .about-image{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        max-width: 330px; /* You can set the dimensions to whatever you want */
+        height: 255px;
+        object-fit: cover;
+    }
+
+    .menu-css{
+        margin-top: 55px;
+        margin-bottom: 200px;
+    }
+    .check-menu{
+        color: black;
+        font-size: 13px;
+        border-bottom: 1px solid #90cfaf;
+    }
+
+    .btn-up{
+        text-align: center;
+    }
+    .menu-css .nav-link{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 15px;
+        text-align: center;
+        color: black;
+        font-family: Nexa_Free_Bold;
+    }
+
+
+    .menu-box{
+        min-height: 804px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        background-image: url("../images/Tech bar Tab.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .icon-pos{
+        position: absolute;
+        top: -70px;
+    }
+
+    .overflow-para{
+        /*padding: 0 2.5%;*/
+        width: 100%;
+        /*background-color: #0c5460;*/
+        padding: 1.5% 4%;
+        /*overflow-y: auto;*/
+    }
+
+
+
+
+    .event-details h4{
+        font-size: 20px;
+        margin-bottom: 26px;
+        padding: 0;
+        font-family: Nexa_Free_Bold;
+    }
+
+    .event-details a{
+        color: #90cfaf;
+        font-size: 10px;
+        background-color: #FAFDFB;
+        font-family: Nexa_Free_Light;
+    }
+
+    .big-foot{
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+        background-attachment: fixed;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .overflow-para{
+        width: 100%;
+        padding: 1.5% 8%;
+        text-align: center;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    #cssmenu{display: none !important;}
+
+    .bayzid{
+        height: 350px;
+        width: 350px;
+    }
+
+}
+
+/***********************MOBILE*********************/
+
+@media screen and (max-width: 570px) {
+    .to-top{
+        position: absolute;
+        bottom: 5px;
+        right: 30px;
+        background-color: #86cca8;
+        padding: 8px 8px;
+        display: block !important;
+
+    }
+
+    .btn-learn{
+        width: 110px;
+        height: 50px;
+        background-color: #86cca8;
+        color: white;
+        font-family: Nexa_Free_Light;
+        font-size: 14px;
+        border-radius: 20px;
+        margin-bottom: 190px;
+    }
+    .check-menu{
+        color: black;
+        font-size: 13px;
+        border-bottom: 1px solid #90cfaf;
+    }
+
+    .menu-css{
+        margin-top: 40px;
+        margin-bottom: 175px;
+    }
+
+    .menu-css .nav-link{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
+        text-align: center;
+        color: black;
+        font-family: Nexa_Free_Bold;
+    }
+
+
+    .icon-pos{
+        position: absolute;
+        top: -130px;
+    }
+
+    .overflow-para{
+        width: 100%;
+        padding: 1.5% 8%;
+        text-align: center;
+    }
+
+    .menu-box{
+        min-height: 804px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        background-image: url("../images/Tech bar Mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+
+    .foot-font{
+        font-size: 12px;
+        font-family: Nexa_Free_Bold;
+        /*margin-bottom: 50px;*/
+        width: 84%
+    }
+
+    .event-details h4{
+        font-size: 18px;
+        margin-bottom: 26px;
+        padding: 0;
+        font-family: Nexa_Free_Bold;
+    }
+
+    .event-details a{
+        color: #90cfaf;
+        font-size: 10px;
+        background-color: #FAFDFB;
+        font-family: Nexa_Free_Light;
+    }
+
+    .to-top{
+        position: absolute;
+        bottom: 5px;
+        right: 20px;
+        background-color: #86cca8;
+        padding: 8px 10px;
+
+    }
+
+    .btn-up{
+        text-align: center;
+    }
+
+    .logo-responsive{
+        margin-top: 10px;
+        width: 145px;
+    }
+
+    .col-sm-12 .project-box{
+        text-align: center;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .slider-header{
+        color: #86cca8;
+        font-family: Bebas;
+        font-size: 30px;
+        z-index: 2333;
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+    }
+
+    .slider-paragraph{
+        color: #585859;
+        font-size: 13px !important;
+        font-family: Nexa_Free_Light;
+        z-index: 2333;
+        margin-top: 20px;
+        margin-bottom: 75px;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    .about-img-pos{
+        text-align: center;
+    }
+
+
+    .about-image{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        max-width: 330px; /* You can set the dimensions to whatever you want */
+        height: 255px;
+        object-fit: cover;
+    }
+
+
+    .project-box{
+        min-height: 200px;
+        width: 50%;
+        padding-top: 10%;
+        text-align: center;
+        border: 1px solid #f1f1f1;
+        margin: 0 25% 35px 25%;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .carousel-item{
+        height: 375px;
+    }
+
+    .slider-box{
+        min-height: 250px;
+    }
+
+    .btn-learn{
+        height: 40px;
+        padding-top: 10px;
+    }
+
+
+    #menu{
+        display: none;
+    }
+
+    #cssmenu{display: block !important;}
+
+
+    .inner_content{
+        padding: 1.7%;
+        background-color: #90cfaf;
+        position: relative;
+        top:-27px;
+        font-family: Nexa_Free_Light;
+        font-size: 12px;
+    }
+
+    .menu-box{
+        display: none;
+    }
+
+    .bayzid{
+        height: 300px;
+        width: 300px;
+    }
+}
